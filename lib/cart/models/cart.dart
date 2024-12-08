@@ -7,7 +7,8 @@ class Cart extends Equatable {
   final List<Item> items;
 
   int get totalPrice {
-    return items.fold(0, (total, current) => total + current.price);
+    // TODO calculate the total price with both for and functional programming (use either `fold` or any other function you prefer)
+    return 0;
   }
 
   @override

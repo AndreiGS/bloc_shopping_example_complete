@@ -11,12 +11,7 @@ final class CartLoading extends CartState {
 }
 
 final class CartLoaded extends CartState {
-  const CartLoaded({this.cart = const Cart()});
-
-  final Cart cart;
-
-  @override
-  List<Object> get props => [cart];
+  // TODO create the cart loaded state
 }
 
 final class CartError extends CartState {
